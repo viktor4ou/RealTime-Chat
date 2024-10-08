@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTime-Chat", "RealTime-Chat\RealTime-Chat.csproj", "{84CE30FC-60CC-4192-B95E-0D60BE493021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTIme-Chat-API", "RealTIme-Chat-API\RealTIme-Chat-API.csproj", "{BEBE316D-1A26-4435-AC99-0F9EE44EC581}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84CE30FC-60CC-4192-B95E-0D60BE493021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CE30FC-60CC-4192-B95E-0D60BE493021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CE30FC-60CC-4192-B95E-0D60BE493021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CE30FC-60CC-4192-B95E-0D60BE493021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBE316D-1A26-4435-AC99-0F9EE44EC581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBE316D-1A26-4435-AC99-0F9EE44EC581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBE316D-1A26-4435-AC99-0F9EE44EC581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBE316D-1A26-4435-AC99-0F9EE44EC581}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55F23FAA-E0C1-405E-9DDF-104A33E2379E}
+	EndGlobalSection
+EndGlobal
