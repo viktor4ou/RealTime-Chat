@@ -4,9 +4,9 @@ namespace RealTime_Chat.Hubs
 {
     public class SignalRConnectionHub : Hub
     {
-        public override Task OnConnectedAsync()
-        {
-            return base.OnConnectedAsync();
+        public async Task OnConnectedAsync()    
+        { 
+            await Clients.All.SendAsync("ReceiveMessage", "Server", $"{Context.ConnectionId} joined the chat");
         }
         public override Task OnDisconnectedAsync(Exception? exception)
         {
