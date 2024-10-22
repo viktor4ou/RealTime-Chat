@@ -1,4 +1,6 @@
 
+using RealTime_Chat.Hubs;
+
 namespace RealTIme_Chat_API
 {
     public class Program
